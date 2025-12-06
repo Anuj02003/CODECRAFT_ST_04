@@ -17,7 +17,6 @@ public class CrossBrowserTest_02 {
 	    public void loginTest() throws Exception {
 	        DesiredCapabilities caps = new DesiredCapabilities();
 
-	        // CHANGE BROWSERS HERE
 	        caps.setCapability("browserName", "Firefox");
 	        caps.setCapability("browserVersion", "latest");
 	        caps.setCapability("bstack:options", new java.util.HashMap<String, Object>() {{
